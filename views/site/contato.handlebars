@@ -1,0 +1,124 @@
+		<div style="text-align:justify; padding: 30px;">
+		  <h2>WEB TO CASE</h2>	
+		<!--  ----------------------------------------------------------------------  -->
+		<!--  NOTE: Please add the following <FORM> element to your page.             -->
+		<!--  ----------------------------------------------------------------------  -->
+
+		<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+			<input type=hidden name='captcha_settings' value='{"keyname":"GFT","fallback":"true","orgId":"00D4S000000pVCh","ts":""}'>
+			<input type=hidden name="orgid" value="00D4S000000pVCh">
+			<input type=hidden name="retURL" value="https://www.gft.com/br/pt/index/">
+
+			<!--  ----------------------------------------------------------------------  -->
+			<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+			<!--  these lines if you wish to test in debug mode.                          -->
+			<!--  <input type="hidden" name="debug" value=1>                              -->
+			<!--  <input type="hidden" name="debugEmail" value="haroldhrs@hotmail.com">   -->
+			<!--  ----------------------------------------------------------------------  -->
+			<table border="0" CELLSPACING="10">
+				<tr>
+					<td>
+						<label for="name">Nome</label>
+					</td>
+					<td>
+						<input  id="name" maxlength="80" name="name" size="20" type="text" />	
+					</td>			
+				</tr>
+				<tr>
+					<td>
+						<label for="email">Email</label>
+					</td>
+					<td>				
+						<input  id="email" maxlength="80" name="email" size="20" type="text" />		
+					</td>			
+				</tr>
+				<tr>
+					<td>
+						<label for="phone">Fone</label>
+					</td>
+					<td>				
+						<input  id="phone" maxlength="40" name="phone" size="20" type="text" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="subject">Assunto</label>
+					</td>
+					<td>				
+						<!-- <input  id="subject" maxlength="80" name="subject" size="20" type="text" /> -->
+						<select  id="subject" name="subject" title="subject" style="width: 178px;">>
+							<option value="">--None--</option>
+							<option value="Dúvida">Dúvida</option>
+							<option value="Reclamação">Reclamação</option>
+							<option value="Sugestão">Sugestão</option>
+							<option value="elogio">Elogio</option>
+						</select>						
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="state">UF</label>
+					</td>
+					<td>				
+						
+						<select  id="state" name="state" title="Estado" style="width: 178px;">>
+							<option value="">--None--</option>
+							<option value="AC">AC</option>
+							<option value="AL">AL</option>
+							<option value="AP">AP</option>
+							<option value="AM">AM</option>
+							<option value="BA">BA</option>
+							<option value="CE">CE</option>
+							<option value="DF">DF</option>
+							<option value="ES">ES</option>
+							<option value="GO">GO</option>
+							<option value="MA">MA</option>
+							<option value="MT">MT</option>
+							<option value="MS">MS</option>
+							<option value="MG">MG</option>
+							<option value="PA">PA</option>
+							<option value="PB">PB</option>
+							<option value="PR">PR</option>
+							<option value="PE">PE</option>
+							<option value="PI">PI</option>
+							<option value="RJ">RJ</option>
+							<option value="RN">RN</option>
+							<option value="RS">RS</option>
+							<option value="RO">RO</option>
+							<option value="RR">RR</option>
+							<option value="SC">SC</option>
+							<option value="SP">SP</option>
+							<option value="SE">SE</option>
+							<option value="TO">TO</option>
+						</select>						
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="description">Descrição</label>
+					</td>
+					<td>				
+						<textarea name="description" style="margin: 0px; width: 179px; height: 39px;"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<!-- <div class="g-recaptcha" data-sitekey="6LcPfQEVAAAAADcGHXLg2w9nfaOWEklMXyUb3a8K"></div><br> -->
+						<br/ >
+						<input class="button" type="submit" name="submit">
+					</td>
+				</tr>
+	
+			</table>
+			<script type="text/javascript">
+			if (!window._laq) { window._laq = []; }
+			window._laq.push(function(){liveagent.showWhenOnline('5734S000000g4Xh', document.getElementById('liveagent_button_online_5734S000000g4Xh'));
+			liveagent.showWhenOffline('5734S000000g4Xh', document.getElementById('liveagent_button_offline_5734S000000g4Xh'));
+			});</script>
+			<script type='text/javascript' src='https://c.la4-c1-ph2.salesforceliveagent.com/content/g/js/48.0/deployment.js'></script>
+			<script type='text/javascript'>
+			liveagent.init('https://d.la4-c1-ph2.salesforceliveagent.com/chat', '5724S000000g4XT', '00D4S000000pVCh');
+			</script>
+		</form>
+	</div>
