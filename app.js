@@ -30,6 +30,9 @@ app.get('/chat', (req, res) => {
     res.render("site/chat")
 })
 
+app.get('/mensagem', (req, res) => {
+    res.render("site/mensagem")
+})
 
 //app.use('/site', site)
 
